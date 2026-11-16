@@ -1,0 +1,16 @@
+# Identidad del paquete MSIX (lo lee herramientas\crear_msix.py).
+#
+# Con estos valores de ejemplo el paquete sirve SOLO para probarlo en tu PC (modo desarrollador).
+# NO se puede subir a la Store: hay que reemplazarlos por los reales, que da Partner Center.
+#
+# Dónde están: Partner Center -> tu app -> "Gestión del producto" -> "Identidad de la aplicación".
+#   NOMBRE    = "Package/Identity/Name"      (ej.: 12345Autor.BichosEnPantalla)
+#   PUBLISHER = "Package/Identity/Publisher" (ej.: CN=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+#   EDITOR    = "Package/Properties/PublisherDisplayName" (el nombre público que verá la gente)
+# Hay que copiarlos EXACTOS (distingue mayúsculas, espacios y signos).
+# Truco: poné tus valores reales en herramientas\msix\identidad.local.txt (mismo formato, no se versiona)
+# y crear_msix.py lo usa en lugar de este archivo.
+NOMBRE=BichosPantalla.Prueba
+PUBLISHER=CN=BichosPrueba
+EDITOR=Editor de prueba
+VERSION=1.0.0.0

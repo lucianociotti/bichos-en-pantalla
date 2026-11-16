@@ -1,0 +1,23 @@
+# Artefactos de compilación (se rehacen con herramientas\crear_exe.bat)
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Datos de ejecución de cada máquina
+bichos.log*
+bichos_fallo.log
+bichos.estado
+bichos.ini
+_test_*.png
+
+# Identidad real de la Microsoft Store del autor (la plantilla de prueba sí se versiona)
+herramientas/msix/identidad.local.txt
+*.msix
+
+# Fotos de terceros (CC0 descargadas + fotos de bancos de imágenes sin licencia de redistribución):
+# no se versionan para no publicar por accidente imágenes con licencia ajena
+fotos/
+
+# Sprites de arañas: derivados de fotos de banco de imágenes (los de cucaracha vienen de una foto CC0)
+sprites/arana_*
