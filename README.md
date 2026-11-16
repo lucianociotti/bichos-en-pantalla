@@ -8,6 +8,10 @@ De vez en cuando, al azar, una **cucaracha o una araña** cruza tu escritorio po
 
 ## Descargar y probar
 
+**Opción recomendada: [Microsoft Store](https://apps.microsoft.com/detail/9NRTV80JVZ6B)** (gratis). Firmada por Microsoft, se instala con un clic, se actualiza sola y no muestra el aviso de SmartScreen.
+
+**Opción portable (`.exe` suelto):**
+
 1. Entrá a **[Releases](https://github.com/lucianociotti/bichos-en-pantalla/releases/latest)** y bajá `BichosPantalla.exe`.
 2. Doble clic. No hay que instalar nada (Windows 10/11 de 64 bits). Tarda 2–4 segundos en arrancar.
 3. Aparece el icono de la cucaracha en la bandeja, junto al reloj. El primer bicho sale a los 6–12 segundos.
